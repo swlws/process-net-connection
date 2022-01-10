@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var bunyan_1 = __importDefault(require("bunyan"));
-var mode = process.env.NODE_ENV;
+var mode = process.env.NODE_ENV || "development";
 var log = undefined;
 function createLogger() {
     console.log("env mode: ".concat(mode));

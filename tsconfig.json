@@ -14,7 +14,7 @@
     "noImplicitReturns": true,
     "types": ["node"],
     // 生成.d.ts文件
-    "declaration": true,
+    // "declaration": true,
     "moduleResolution": "node",
     // "allowSyntheticDefaultImports": true,
   },
