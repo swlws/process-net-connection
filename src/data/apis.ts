@@ -11,4 +11,5 @@ const apis: ApiCfg[] = [
     },
   },
 ];
-export default apis;
+
+export default [...apis];
