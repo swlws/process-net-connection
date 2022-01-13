@@ -74,6 +74,7 @@ function end_request_chain(req, res, next) {
 var NetServer = /** @class */ (function () {
     function NetServer(option) {
         this.option = option;
+        process.title = option.name;
         this.server = restify_1.default.createServer(__assign({}, this.option));
     }
     NetServer.prototype.pre = function () {

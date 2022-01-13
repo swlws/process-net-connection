@@ -112,6 +112,7 @@ export default class NetServer {
 
   constructor(option: ServeCfg) {
     this.option = option;
+    process.title = option.name;
 
     this.server = restify.createServer({
       ...this.option,
