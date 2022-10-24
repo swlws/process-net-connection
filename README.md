@@ -1,4 +1,4 @@
-# Code Life Server
+# restify serve with typescript
 
 简单后台服务
 
